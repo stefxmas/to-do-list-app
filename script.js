@@ -35,4 +35,9 @@ function newItem(){
     
     }
     
-     
+    document.getElementById("input").addEventListener("keypress", function(event) {
+        if (event.key === 'Enter') {
+          event.preventDefault(); 
+          newItem(); 
+        }
+      });
