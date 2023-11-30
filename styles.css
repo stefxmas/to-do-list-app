@@ -1,8 +1,7 @@
 
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
 
 body {
-font: normal normal 13px/16px "Open Sans", sans-serif;
+font: normal normal 13px/16px "Roboto", sans-serif;
 background: #dfdfdf;
 }
 
@@ -24,7 +23,7 @@ padding: 4px 15px 4px 5px;
 
 #button{
 display: inline-block;
-background-color:#a0fc99;
+background-color:green;
 color:#ffffff;
 border-radius: 5px;
 text-align:center;
@@ -40,7 +39,7 @@ ol {padding-left: 20px;}
 
 ol li {padding: 5px;color:#000;}
 
-ol li:nth-child(even){background: #dfdfdf;}
+ol li:nth-child(even){background: red;}
 
 .strike{text-decoration: line-through;}
 
@@ -56,6 +55,6 @@ li > crossOutButton {
 	background: none;
 	border: none;
 	float: right;
-	color: #025f70;
+	color:blue;
 	font-weight: 800;
 }
